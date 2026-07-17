@@ -41,4 +41,5 @@ campaigns/*
 # Documents and other files
 *.md
 *.txt
+!requirements.txt
 .ruff_cache/
