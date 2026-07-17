@@ -1,0 +1,44 @@
+# Environment variables (sensitive)
+.env
+.env.local
+.env.*.local
+
+# Credentials
+credentials.json
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Generated files
+generated/
+logs/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Pipeline folder
+pipeline/
+
+# Campaigns / Presets contents
+campaigns/*
+!campaigns/.gitkeep
+
+# Documents and other files
+*.md
+*.txt
+.ruff_cache/
